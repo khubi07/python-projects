@@ -1,0 +1,19 @@
+generating a random num and track many times it take the user to guess
+the num
+for this import random
+random.randrange(start,stop)
+you can also use --> randint
+where stop is not included
+when user enters a num it will be in form of string to 
+convert it in num do 
+int(num) but int("hello") where num is not a digit then -> error
+hence ensure num entered by user is a digit by .isdigit
+use if else for this
+
+repeat same step when user guess
+
+to count no. of guesses create a guess variable to store the count
+every time loop runs guess + 1
+
+now lets give an ease for user
+narror down their guess using if else
