@@ -1,0 +1,4 @@
+ask user a bunch of question
+right ans-> +1 to score
+wrong -> do nothing
+at end calculate total score
