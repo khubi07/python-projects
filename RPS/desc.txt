@@ -1,0 +1,8 @@
+if user types other than r,p,s keep asking them again 
+and again
+notation
+rock: 0 , paper:1 , scissor:2
+creatd a list of options and asked pc to chose from it 
+using random 
+
+code continues till the user chose q
