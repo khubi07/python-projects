@@ -17,6 +17,8 @@ note->w mode  it opens already existing file and overwrites
 r - only allow to read already existing files
 a - opens file or creates the one if does not exist and allow to add on
 
+view() ->open file in r mode then read each lines using f.readlines through for loop
+
 due to "/n" when user views pass an extra line is occuring to fix this 
 use line.rstrip() it will strip off extra line
 
