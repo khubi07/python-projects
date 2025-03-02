@@ -1,0 +1,5 @@
+asking user to play or not using while loop
+instead of using quit() for each lose use break to come out of while loop
+two options are asked to go left or right?
+inside each options there are few more choices to make 
+these ase done by coditional loop statements
