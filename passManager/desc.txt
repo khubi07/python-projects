@@ -1,0 +1,26 @@
+this is a medium level project
+to store passwords along with the user name and their associated accounts
+in a text file 
+the stored passwords will be all encrypted (not in the form of plain text)
+
+encrypted pass will need master password(key) for decryption
+
+first ask the master pass from user to encrypt pass
+if the pass enter by user is wrong, th ecode still works but pass will not be shown
+
+next user wwil be asked whether they want to add or view pass
+all this be enclosed in while loop
+
+add() -> ask for account and name, then store it in a file(if file doesnt exist create one)
+"with" keyword automatically closes the file 
+note->w mode  it opens already existing file and overwrites
+r - only allow to read already existing files
+a - opens file or creates the one if does not exist and allow to add on
+
+due to "/n" when user views pass an extra line is occuring to fix this 
+use line.rstrip() it will strip off extra line
+
+split is used to separate acc name and pass
+
+pipe "|" operator is inserted after each word and the output
+is returned in the form of list 

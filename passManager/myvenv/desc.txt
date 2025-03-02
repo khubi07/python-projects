@@ -1,0 +1,1 @@
+created an venv for this project as module for encryption needs to be installed
