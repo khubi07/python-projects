@@ -3,11 +3,7 @@ to store passwords along with the user name and their associated accounts
 in a text file 
 the stored passwords will be all encrypted (not in the form of plain text)
 
-encrypted pass will need master password(key) for decryption
 
-first ask the master pass from user to encrypt pass
-if the pass enter by user is wrong, th ecode still works but pass will not be shown
-creating two function for writing and reteeiving key
 
 write_key() -> using generate method it generates key and store in key 
 key.key file is created in wb mode and then write in file
