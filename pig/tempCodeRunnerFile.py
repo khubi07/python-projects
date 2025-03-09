@@ -1,0 +1,1 @@
+player_score = [0 for _ in range(player)] #list stores all the playes's score

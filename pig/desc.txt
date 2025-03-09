@@ -1,0 +1,17 @@
+multiplayer game
+objective - be the first to reach score 50
+on your turn roll a six-sided die
+if you get other than 1, add it to ur temporary score for that turn
+you can choose to roll again or hold temporaryscore will be added to actual score
+if u hit 1, temp score = 0
+then its next players turn
+-----------------------------------------------------------------------------------------------
+isdigit checks whether ip is a digit or not if yes then only it will be converted 
+to int. if string is tried to converted to int valueerror hits
+
+[0 for _ in range(player)]: This is the list comprehension It generates a list by iterating
+over a sequence and creating an element for each iteration.
+initially starts with 0. _ is just like i. creates a sequence of numbers from 0 to player - 1,
+ where player is the number of players
+if players=3, range(player) generate sequence [0, 1, 2], and list comprehension create list [0, 0, 0].
+Each 0 represents initial score for each 3 players.
