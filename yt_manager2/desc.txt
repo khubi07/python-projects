@@ -1,0 +1,8 @@
+-creating youtube manager with sqlite3 database
+-refering 1st method to youtube_manager without db
+-closign connection at end is best practice
+-for all functions we use cursor.execute() to execute functions
+
+choice 2:
+in 1st method we called add_videos() whch added video in file 
+but now we are using db 
