@@ -1,0 +1,19 @@
+mongodb+srv://<db_username>:<db_password>@cluster0.1nva8dt.mongodb.net/
+
+
+imported pymongo 
+pip install pymongo
+
+mongoDb atlas
+create free project 
+in navbar on left go to network access - give access to everyone(access list entry: 0.0.0.0/0 )
+now go to db access - create new user set pass and username (remember it as it will be used further in project)
+- in passwod avoid special chr
+then add built in role - read write only
+
+got to overview, click connect, copy the url there - it will be sed in project
+no need to further proceed with cluster
+
+replace username and pass in url
+
+*in mongodb no need to close connection like sql
