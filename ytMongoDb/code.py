@@ -3,8 +3,9 @@
 # #whatever we write after / is the name of db "ytmanager"
 
 # from pymongo import MongoClient
+# from bson import ObjectId 
 # #when we write ths way we dont have to write pymongo in client
-# client = MongoClient("mongodb+srv://youtubePy:youtubePy@cluster0.1nva8dt.mongodb.net/", tls = True)
+# client = MongoClient("mongodb+srv://youtubePy:youtubePy@cluster0.1nva8dt.mongodb.net/", tlsAllowInvalidCertificates = True)
 # #not a good way handle ssl
 # #but this is not a good practice to include id pass in url itself
 # print(client)
@@ -20,12 +21,12 @@
 # def list_video():
 #     #'find' returns iterable obj
 #     for video in video_collection.find():
-#         print(f"ID: {video['_id']}, Name:{video['name'], Time: {video['time']}}")
+#         print(f"ID: {video['_id']}, Name:{video['name'] and Time: {video['time']}}")
     
 # def Add_video(name, time):
 #     video_collection.insert_one({"name": name, "time": time})
 # def Update_video(video_id, new_name, new_time):
-#     video_collection.update_one({'_id': video_id},{"$set": {"name": new_name, "time": new_time}})
+#     video_collection.update_one({'_id': ObjectId(video_id)},{"$set": {"name": new_name, "time": new_time}})
 # def Delete_video(video_id):
 #     video_collection.delete_one({"_id": video_id})
 

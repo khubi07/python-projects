@@ -1,3 +1,4 @@
+NOT COMPLETED AS I DIDNT KNEW MONGODB
 mongodb+srv://<db_username>:<db_password>@cluster0.1nva8dt.mongodb.net/
 
 
